@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            REGISTATION FORM
+        </title>
+        <link rel="stylesheet" href="styleref.css"
+    </head>
+    <body>
+        <div class="reg"></div>
+        <h1>REGISTERATION FORM</h1>
+        <form action="">
+            <label for="first">
+                Firstname:
+            </label>
+            <input type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Username" required> 
+            <label for="last">
+                Lastname:
+            </label>
+            <input type="text"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="Lastname" required> 
+            <label for="sex">
+                Gender:
+            </label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="mailbox">
+                Email:
+            </label>
+            <input type="text"
+                    id="mail"
+                    name="mail"
+                    placeholder="Enter email" required> 
+            <label for="phone">
+                Contact number:
+            </label>
+            <input type="text"
+                    id="num"
+                    name="country code"
+                    maxlength="10"
+                    placeholder="+91" required> 
+            <label for="pass">
+                Password:
+            </label>
+            <input type="text"
+                   id="pass"
+                   name="pass"
+                   placeholder="Enter password" required>
+            <label for="retype">
+                Re-Enter Password:
+            </label>
+            <input type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Re-enter" required>
+           
+                    
+            <div class="wrap">
+            <button type="submit"
+                    onclick="solve()">
+                    Submit
+            </button>
+            </div>
+        </form>
+    </body>
+</html>
