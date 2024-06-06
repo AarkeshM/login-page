@@ -3,10 +3,11 @@
 <head>
     <title>LOGIN PAGE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <div class="main">
-    <h1>👤LOGIN PAGE</h1>   
+    <h1><i class="fa-regular fa-user"></i> LOGIN PAGE</h1>   
     <form action=""> 
     <label for="first">
         Username:
@@ -23,14 +24,24 @@
             name="password"
             placeholder="🛡️Enter your password" required>
     <div class="check">
-    <a href="#">Forget Password?</a> 
+    <a href="#"><i class="fa-sharp fa-regular fa-f"></i>orget Password?</a> 
     </div>    
     <div class="wrap">
     <button type="submit"
         onclick="solve()">
-        Login
+        Submit
     </button>
     </div>
+    <div >
+    <button type="submit"
+        onclick="solve()">
+        Signup with <i class="fa-brands fa-google"></i>oogle 
+    </button>
+    </div>
+    <button type="submit"
+        onlick="solve()">
+        Signup with <i class="fa-brands fa-facebook"></i>acebook 
+    </button >
     </form>
     <p>
         Don't have a account?
