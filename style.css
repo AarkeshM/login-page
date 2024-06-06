@@ -5,37 +5,28 @@ body{
     font-family: franklin gothic medium;
     line-height: 1.8;
     min-height: 80vh;
-    background: linear-gradient(to right,#710950,#86f605);
     flex-direction: column;
     margin: 0;
     margin-top: 5%;
 
 }
-
+body{
+    background: url(beautiful-nature-wallpaper-hd-wallpaper-ai-generated-free-photo.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 .main{
     background-color: transparent;
-    border: 2px solid rgba(225,225,225,0.3);
+    border: 2px solid rgba(206, 133, 133);
     border-radius: 30px;
-    box-shadow: 0 0 20px rgba(0 0 0 0.2);
+    box-shadow: 0 0 20px rgba(217, 113, 113, 0.996);
     padding: 10px 10px;
     transition: transform 0.2s;
     width: 420px;
     text-align: center;
 }
-form:before{
-    content: '';
-    position: absolute;
-    bottom: 3%;
-    right: 28px;
-    width: 200px;
-    height: 200px;
-    color: rgb(18, 17, 18);
-    border-radius: 50%;
-    z-index: -1;
-    opacity: .8;
-}
 h1{
-    color: rgb(117, 36, 21);
+    color: rgb(56, 1, 15);
 }
 label{
     display: block;
@@ -57,12 +48,12 @@ input{
 }
 button{
     font-size: 16px;
-    width: 50%;
-    margin-top: 5% ;
-    color: rgb(2, 7, 1);
+    width: 55%;
+    margin-top: 3% ;
+    color: rgb(213, 213, 213);
     font-size: 15px;
     opacity: .5;
-    background: rgba(238, 238, 90, 0.06);
+    background: rgb(0, 0, 0);
     padding: 10px 30px;
     border: none;
     outline: none;
@@ -72,9 +63,15 @@ button{
     border-left: 1px solid rgba(225,225,225,0.3);
     border-top: 1px solid rgba(225,225,225,0.3);
 }
+button:hover{
+    text-decoration: underline;
+    color: white;
+    opacity: 0.8;
+    background: rgb(17, 224, 17);
+}
 
 .check a{
-    color: rgb(6, 12, 110);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .check a:hover{
@@ -83,10 +80,24 @@ button{
 a{
     font-size: 15px;
     text-align: center;
-    opacity: .7;
+    opacity: 1.5;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    transition: 1s;
 }
 .wrap{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -14.5%;
+    width: 130%;
+}
+.wrap button:hover{
+    text-decoration: underline;
+    text-shadow: #86f605;
+    color: #f3f3f4;
+    background: rgb(17, 226, 17);
 }
