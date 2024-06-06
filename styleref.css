@@ -5,41 +5,31 @@ body{
     font-family: franklin gothic medium;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #f68905,#d97089);
     flex-direction: column;
     margin: 0;
-
+    background: url(beautiful-nature-wallpaper-hd-wallpaper-ai-generated-free-photo.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 form{
     height: 34.5rem;
     width: 28rem;
     display: flex;
     flex-direction: column;
-    background: rgba(225,225,225,0.6);
-    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgb(232, 145, 145);
     border-radius: 20px;
     border-left: 1px solid rgba(225,225,225,0.3);
     border-top: 1px solid rgba(225,225,225,0.3);
 }
-form:before{
-    content: '';
-    position: absolute;
-    bottom: 3%;
-    right: 28px;
-    width: 200px;
-    height: 200px;
-    color: rgb(18, 17, 18);
-    border-radius: 50%;
-    z-index: -1;
-    opacity: .8;
-}
+
 .reg{
     background-color: #fff;
     text-align: center;
 }
 h1{
     font-size: 40px;
-    color: rgb(97, 15, 60);
+    color: rgb(245, 90, 175);
     margin-left: 0%;
 
 }
@@ -50,7 +40,7 @@ label{
     margin-top: 0.5px;
     margin-bottom: 0.5px;
     text-align: left;
-    color: #553;
+    color: rgb(14, 14, 14);
     opacity: 0.8;
     font-weight: bold;
 }
@@ -62,9 +52,12 @@ input{
     border: none;
     outline: none;
     background: transparent;
-    color: rgb(5, 1, 27);
-    border-bottom: 1px solid rgba(249, 255, 246, 0.6);
+    color: blue;
+    border-bottom: 1px solid rgb(93, 16, 16);
     opacity: .8;
+}
+.placeholder{
+    color: black;
 }
 select{
     width: 20%;
@@ -82,7 +75,7 @@ button{
    color: white;
    font-size: 15px;
    opacity: .7;
-   background: rgba(225,225,225,0.06);
+   background: rgba(225, 225, 225, 0.412);
    padding: 10px 30px;
    border: none;
    outline: none;
@@ -91,4 +84,9 @@ button{
    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
    border-left: 1px solid rgba(225,225,225,0.3);
    border-top: 1px solid rgba(225,225,225,0.3);
+}
+button:hover{
+    text-decoration: underline;
+    background: green;
+    opacity: .8;
 }
